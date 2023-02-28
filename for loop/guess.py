@@ -10,7 +10,7 @@ while play_again == 'yes':
     is_right_guess = False
     num_valid_guesses = max_valid_guess
 
-    guess = -1
+    guess = 0
     steps_to_guess = 0
     while (num != guess) and (num_valid_guesses>0):
         guess = int(input("guess the number between 1-10: "))
@@ -30,4 +30,4 @@ while play_again == 'yes':
         print("try again...")
                     
     play_again = input("do you want to play again? (yes/no): ")
-    # todo: check if input is yes/no
+    # todo: check if input is yes/no and capital/lower cases
